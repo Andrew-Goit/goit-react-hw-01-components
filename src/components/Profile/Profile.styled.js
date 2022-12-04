@@ -9,7 +9,7 @@ export const ProfileCard = styled.div`
   justify-content: space-between;
   background-color: #ffffff;
   border-radius: 5px;
-  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 1px 1px 6px 4px rgba(0, 0, 0, 0.16);
 `;
 
 export const Description = styled.div`
@@ -27,7 +27,7 @@ export const Avatar = styled.img`
 
 export const Name = styled.p`
   font-weight: 700;
-  font-size: 25px;
+  font-size: 26px;
   margin-top: 20px;
 `;
 
@@ -64,11 +64,11 @@ export const StatsItem = styled.li`
 
 export const Label = styled.span`
   color: #777;
-  font-size: 17px;
+  font-size: 18px;
 `;
 
 export const Quantity = styled.span`
   font-size: 20px;
-  padding-top: 7px;
+  padding-top: 8px;
   font-weight: 700;
 `;

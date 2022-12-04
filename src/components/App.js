@@ -2,14 +2,14 @@
 
 import { Profile } from './Profile/Profile';
 import user from './initial/user.json';
-// import { Statistics } from './Statistics/Statistics';
-// import data from './initial/data.json';
-// import { FriendList } from './FriendList/FriendList';
-// import friends from './initial/friends.json';
-// import { TransactionHistory } from './TransactionHistory/TransactionHistory';
-// import transactions from './initial/transactions.json';
+import { Statistics } from './Statistics/Statistics';
+import data from './initial/data.json';
+import { FriendList } from './FriendList/FriendList';
+import friends from './initial/friends.json';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
+import transactions from './initial/transactions.json';
 
-function App() {
+export function App() {
   return (
     <div className="App">
       <Profile
@@ -19,11 +19,11 @@ function App() {
         avatar={user.avatar}
         stats={user.stats}
       />
-      {/* <Statistics title="Upload stats" stats={data} />
+      <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />;
-      <TransactionHistory items={transactions} /> */}
+      <TransactionHistory items={transactions} />
     </div>
   );
 }
 
-export {App};
+// export {App};
