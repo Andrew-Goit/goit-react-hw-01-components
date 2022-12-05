@@ -9,7 +9,7 @@ import friends from './initial/friends.json';
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 import transactions from './initial/transactions.json';
 
-export function App() {
+function App() {
   return (
     <div className="App">
       <Profile
@@ -27,3 +27,4 @@ export function App() {
 }
 
 // export {App};
+export default App;

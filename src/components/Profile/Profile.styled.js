@@ -46,7 +46,7 @@ export const Stats = styled.ul`
   height: 100px;
   width: 100%;
   display: flex;
-  border-top: 1px solid #aaa;
+  border-top: 2px solid #ddd;
   border-radius: 0 0 5px 5px;
 `;
 
@@ -56,9 +56,10 @@ export const StatsItem = styled.li`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #E9EBF1;
   &:nth-child(2) {
-    border-left: 1px solid #aaa;
-    border-right: 1px solid #aaa;
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
   }
 `;
 
