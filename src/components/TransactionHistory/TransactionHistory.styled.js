@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const TransactionTable = styled.table`
   width: 700px;
   margin: 0 auto;
+  margin-top: 40px;
   box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.2);
   
 `;

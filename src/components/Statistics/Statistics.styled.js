@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StatisticsSection = styled.section`
   width: 500px;
-  margin: 20px auto;
+  margin: 50px auto;
   background-color: #fdfdfd;
   box-shadow: 1px 1px 6px 4px rgba(0, 0, 0, 0.12);
   border-radius: 5px;
